@@ -1,11 +1,14 @@
-import react from 'react';
+import React from 'react';
+import Navigation from './Naivgation';
 
-function Hedder(){
+
+function Header(){
     return(
-        <header>
-            AppName
+        <header className='border-b font-bold p-3'>
+            This is the header
+            <Navigation/>
         </header>
     )
 }
 
-export default Hedder;
+export default Header;

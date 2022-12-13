@@ -1,14 +1,17 @@
 import React from 'react';
-import './App.css';
 import HelloWorld from './Components/HelloWorld';
 import Counterexample from './Components/Counterexample'
-import Hedder from './Components/Hedder';
+import Header from './Components/Hedder';
+import Footer from './Components/Fotter';
+import Navigation from './Components/Naivgation';
 
 function App() {
   return (
     <div>
-      <Hedder className='app-header'/>
+      <Header/>
       <HelloWorld name="WooHoo"/>
+      <Navigation/>
+      <Footer/>
       </div>
 
 );
