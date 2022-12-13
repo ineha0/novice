@@ -1,0 +1,1 @@
+A app to check weather, i'll be using open-meteo.com open source weather api her for my app.
